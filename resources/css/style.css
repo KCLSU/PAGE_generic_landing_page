@@ -1,0 +1,73 @@
+section {
+  width: 100%;
+  position: relative;
+  height: 100vh;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+    z-index:1000;
+}
+
+.info-box {
+  position: absolute;
+    transform: translate(0, -50%);
+  top: 50%;
+  height: 30em;
+  width: 50em;
+  padding: 1em 2em;
+  border: 8px solid purple;
+  margin: 0;
+  background-color: white;
+  overflow-y: hidden;
+}
+
+.box-right {
+  right: 4em;
+}
+
+.box-left{
+  left: 4em;
+}
+
+.box-left {
+  right: -2em;
+}
+.strap, .banner {
+  height: 50%;
+  width: 100%;
+}
+
+.strap {
+  padding: 0 3em;
+  border-bottom: 4px solid purple;
+}
+
+.strap-text {
+  margin-bottom: 8em;
+}
+
+.strap-text h1 {
+  font-size: 50px;
+}
+
+.strap-text span {
+  display: block;
+  margin: 1em 0;
+  font-size: 25px;
+  color: gray;
+}
+
+.banner{
+  border-top: 4px solid purple;
+  overflow: hidden;
+}
+
+.banner img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  overflow: hidden;
+}
