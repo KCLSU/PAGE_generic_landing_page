@@ -12,7 +12,7 @@ function setSectionHeight(){
   sections.forEach((section) => section.style.height = sectionHeight);
 }
 
-// setSectionHeight();
+setSectionHeight();
 
 $(function() {
           $.scrollify({
