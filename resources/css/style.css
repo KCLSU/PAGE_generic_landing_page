@@ -51,6 +51,7 @@ section {
 
 .strap-text h1 {
   font-size: 50px;
+  margin-top: 1em;
 }
 
 .strap-text span {
@@ -70,4 +71,73 @@ section {
   height: auto;
   display: block;
   overflow: hidden;
+}
+
+@media only screen and (max-width: 780px){
+  .strap-text h1 {
+    font-size: 33px;
+    margin-bottom: 5px;
+  }
+  .strap-text h2 {
+    font-size: 28px;
+    margin: 0.5em 0;
+  }
+  .strap-text h2 {
+    font-size: 25px;
+  }
+
+  .info-box{
+    top: 63%;
+    height: 33em;
+    width: auto;
+    padding: 0.5em 1em;
+    overflow-y: scroll;
+    background-color: #ffffffc7;
+  }
+
+  .box-left {
+    left: 25px;
+    right: 25px;
+  }
+
+  .box-right {
+    right: 25px;
+    left: 25px;
+  }
+
+  .strap {
+    height: 30%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 1em;
+    border-bottom: none;
+  }
+
+  .strap-text{
+    margin-top: 5em;
+  }
+
+  .strap-text span {
+    margin: 0;
+    font-size: 15px;
+
+  }
+
+  .banner {
+    height: 70%;
+    display: flex;
+    align-items: flex-end;
+    border-top: none;
+  }
+
+  .banner img {
+      max-width: 200%;
+      height: auto;
+      display: block;
+      overflow: hidden;
+      object-fit: cover;
+  }
+
+
+
 }
